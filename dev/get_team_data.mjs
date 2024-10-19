@@ -22,7 +22,7 @@ if (isEvent) {
 }
 const options = {
     headers: {
-        'X-TBA-Auth-Key': '4UGmkRNbDwYlMa7KOeCr4yFec1IjPMQfbUX0FOnsoU3FOfG2u0HZL0UcoWgLs0ao'
+        'X-TBA-Auth-Key': ''
     }
 };
 

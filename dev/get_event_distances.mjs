@@ -8,7 +8,7 @@ import { readFileSync } from 'fs';
 import { writeFileSync } from 'fs';
 import { unlink } from 'fs';
 
-const geocodingAPIKey = 'AIzaSyBDL3-BcKPUdJDhzbkA1te5lMg_iIMRBIs'; // take out when making code public
+const geocodingAPIKey = ''; // take out when making code public
 const dataFile = process.argv[2]; // name of file to add distance info to (without extension)
 let eventLocation = process.argv[3] // event location
 

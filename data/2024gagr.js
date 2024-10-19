@@ -361,13 +361,13 @@ var data = [
   },
   {
     "team_number": 9998,
-    "nickname": "Off-Season Demo Team 9998",
-    "city": "Unknown",
+    "nickname": "Off-Season Demo Team 9998 (RoboDragons 3318)",
+    "city": "Lawrenceville",
     "state": "Georgia",
     "rookie_year": 2025,
-    "school_name": "FIRST HQ",
+    "school_name": "Gwinnett Sch Math Sci & Tech",
     "number_of_awards": 0,
-    "event_distance": "0 mi"
+    "event_distance": "102 mi"
   },
   {
     "team_number": 9999,
