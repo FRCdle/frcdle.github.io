@@ -362,18 +362,18 @@ var data = [
   {
     "team_number": 9998,
     "nickname": "Off-Season Demo Team 9998",
-    "city": "Manchester",
-    "state": "NH",
-    "rookie_year": 2017,
+    "city": "Unknown",
+    "state": "Georgia",
+    "rookie_year": 2025,
     "school_name": "FIRST HQ",
-    "number_of_awards": 3,
-    "event_distance": "1,085 mi"
+    "number_of_awards": 0,
+    "event_distance": "0 mi"
   },
   {
     "team_number": 9999,
     "nickname": "Off-Season Demo Team 9999 (Team BEAN 1833)",
     "city": "Cumming",
-    "state": "GA",
+    "state": "Georgia",
     "rookie_year": 2025,
     "school_name": "Family/Community",
     "number_of_awards": 0,
