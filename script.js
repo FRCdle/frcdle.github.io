@@ -12,18 +12,7 @@ function addTableRow(teamData) {
     const tbody = table.querySelector('tbody');
     const newRow = document.createElement('tr');
     newRow.id = "tr" + row;
-    // teamData.forEach((value, index) => {
-    //   if (value == answer)
-    //   const cell = document.createElement('td');
-    //   cell.textContent = value;
-    //   newRow.appendChild(cell);
-    // });
 
-    // for (var i = 0; i < teamData.length; i++) {
-    //   const cell = document.createElement('td');
-    //   cell.textContent = teamData[i];
-    //   newRow.appendChild(cell);
-    // }
     const team_number = teamData[0];
     const team_number_cell = document.createElement('td');
     if (team_number == answer.team_number) {
@@ -169,7 +158,6 @@ function guessAttempted(id) {
 }
 
 function addOptions(inData) {
-
     $('.input-dropdown').select2({
       placeholder: "Select a team...",
       templateSelection: function (state) {
@@ -211,7 +199,6 @@ function winGame() {
   win_streak++;
   $(".next_round_button").html("Next Round");
   $(".streak").html("Win Streak: " + win_streak +  " 🔥");
-
 }
 
 function loseGame() {
@@ -222,8 +209,8 @@ function loseGame() {
     }
   });
   $(".team_image").css({"filter": "blur(0px)"});
+  $("#share_popup_message").html("The team was: " + answer.team_number + " - " + answer.nickname);
 
-  document.getElementById("share_popup_message").innerHTML = "The team was: " + answer.team_number + " - " + answer.nickname;
   setTimeout(function() {
     share_popup.classList.add("show")
     $(".next_round_button").show();
@@ -354,33 +341,3 @@ $(document).ready(function() {
     }
   });
 });
-
-
-
-// $(document).ready(function() {
-
-// });
-
-// myButton.addEventListener(
-//   "click",
-//   function () {
-//       share_popup.classList.add("show");
-//   }
-// );
-// closePopup.addEventListener(
-//   "click",
-//   function () {
-//       
-//   }
-// );
-// window.addEventListener(
-//   "click",
-//   function (event) {
-//       if (event.target == share_popup) {
-//           share_popup.classList.remove(
-//               "show"
-//           );
-//       }
-//   }
-// );
-
